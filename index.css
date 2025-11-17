@@ -4,18 +4,19 @@
     padding: 0px;
 }
 
-body {
+.main {
     background-color: hsl(30, 38%, 92%);
-    height: 100%;
-    width: 100%;
+    min-height: 100vh;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.lhs {
 
-}
-.rhs {
-    
-}
+.lhs {}
+
+.rhs {}
 
 /* Pre added styles by FEM */
 
