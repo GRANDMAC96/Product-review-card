@@ -12,7 +12,11 @@
     justify-content: center;
     align-items: center;
 }
-
+.card {
+    /* Set height of card */
+    height: 50%;
+    width: 30%;
+}
 
 .lhs {}
 
