@@ -6,8 +6,9 @@
 
 .main {
     background-color: hsl(30, 38%, 92%);
-    min-height: 100vh;
-    min-width: 100%;
+    /* Use viewport heights/widths to give your main container a defined height */
+    height: 100vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,11 +17,22 @@
     /* Set height of card */
     height: 50%;
     width: 30%;
+    display: flex;
 }
 
-.lhs {}
+.lhs {
+    background-image: url("./images/image-product-desktop.jpg");
+    background-size: cover;
+    /* Ensures the image covers the entire area */
+    background-position: center;
+    /* Keeps the image centered */
+    background-repeat: no-repeat;
+    /* Stops the image from repeating */
+    height: 100%;
+    width: 100%;
+}
 
-.rhs {}
+/* .rhs {} */
 
 /* Pre added styles by FEM */
 
