@@ -13,6 +13,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .card {
     /* Set height of card */
     height: 50%;
@@ -37,6 +38,15 @@
     flex-direction: column;
     padding: 5%;
     background-color: white;
+}
+
+h3 {
+    font-family: "Fraunces", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
 }
 
 /* Pre added styles by FEM */
