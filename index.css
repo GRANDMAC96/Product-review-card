@@ -16,7 +16,7 @@
 .card {
     /* Set height of card */
     height: 50%;
-    width: 30%;
+    width: 45%;
     display: flex;
 }
 
@@ -32,7 +32,12 @@
     width: 100%;
 }
 
-/* .rhs {} */
+.rhs {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    background-color: white;
+}
 
 /* Pre added styles by FEM */
 
