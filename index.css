@@ -16,7 +16,7 @@
 
 .card {
     /* Set height of card */
-    height: 50%;
+    height: 60%;
     width: 45%;
     display: flex;
 }
@@ -77,6 +77,7 @@ p {
     font-variation-settings:
         "SOFT" 0,
         "WONK" 0;
+    color: hsl(158, 36%, 37%);
 }
 
 h6 {
@@ -94,6 +95,7 @@ a {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+    background-color: hsl(158, 36%, 37%);
 }
 
 
