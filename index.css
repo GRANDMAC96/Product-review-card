@@ -70,6 +70,11 @@ p {
 
 }
 
+.price-section {
+    display: flex;
+    align-items: center;
+}
+
 .price {
     font-family: "Fraunces", serif;
     font-optical-sizing: auto;
@@ -89,6 +94,9 @@ h6 {
     font-variation-settings:
         "SOFT" 0,
         "WONK" 0;
+    padding: 0px 0px 0px 10px;
+    text-decoration: line-through;
+
 }
 
 a {
