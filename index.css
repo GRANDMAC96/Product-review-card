@@ -130,3 +130,30 @@ h6 {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+@media (0px <= width <=385px) {
+    .main {
+        width: 100vw;
+    }
+
+    .card {
+        width: 95%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lhs {
+        height: 50%;
+        width: 100%;
+        /* border-radius: 10px 10px 0px 0px; */
+        /* background-image: url("./images/image-product-mobile.jpg"); */
+
+    }
+
+    .rhs {
+        height: 50%;
+        width: 100%;
+        /* border-radius: 0px 0px 10px 10px; */
+
+    }
+}
