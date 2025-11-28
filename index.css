@@ -75,7 +75,7 @@ p {
 
 .price-section {
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 
 .price {
